@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AntonNazarenko/bfx-hf-ui-config.git"
+    "url": "git+https://github.com/bitfinexcom/bfx-hf-ui-config.git"
   },
   "author": "bitfinexcom",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AntonNazarenko/bfx-hf-ui-config/issues"
+    "url": "https://github.com/bitfinexcom/bfx-hf-ui-config/issues"
   },
-  "homepage": "https://github.com/AntonNazarenko/bfx-hf-ui-config#readme"
+  "homepage": "https://github.com/bitfinexcom/bfx-hf-ui-config#readme"
 }
