@@ -4,7 +4,7 @@
   "engines": {
     "node": ">=6"
   },
-  "description": "",
+  "description": "Library which provides a set of configs for bfx-hf-* services.",
   "main": "index.js",
   "directories": {
     "lib": "lib"

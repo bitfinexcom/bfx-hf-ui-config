@@ -28,31 +28,25 @@ To get started, import an `bfx-hf-ui-config` to your project, then get any confi
 
 const  { _default }  =  require('bfx-hf-ui-config').UserSettings // get UserSettings default values
 
-  
+const send = require('../../util/ws/send')
+const sendError = require('../../util/ws/send_error')
+const isAuthorized = require('../../util/ws/is_authorized')
 
-const send =  require('../../util/ws/send')
+module.exports =  async (server, ws, msg) => {
+    
+	const { db } = server
 
-const sendError =  require('../../util/ws/send_error')
+	const { UserSettings } = db
 
-const isAuthorized =  require('../../util/ws/is_authorized')
-
-  
-
-module.exports  =  async  (server, ws, msg)  =>  {
-
-	const  {  db  }  =  server
-
-	const  {  UserSettings  }  =  db
-
-	const  [,  authToken]  =  msg
+	const [, authToken] = msg
 
 	if (!isAuthorized(ws,  authToken)) {
-		return  sendError(ws,  'Unauthorized')
+		return  sendError(ws, 'Unauthorized')
 	} 
 
-	const  {  userSettings  }  =  await  UserSettings.getAll()
+	const { userSettings } = await UserSettings.getAll()
 
-	send(ws, ['data.settings.updated',  userSettings  ||  _default]) // in case if userSettings in db are empty, then we should send _default object from the UserSettings
+	send(ws, ['data.settings.updated', userSettings || _default]) // in case if userSettings in db are empty, then we should send _default object from the UserSettings
 
 } 
 
