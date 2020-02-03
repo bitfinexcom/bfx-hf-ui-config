@@ -1,6 +1,9 @@
 {
   "name": "bfx-hf-ui-config",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=6"
+  },
   "description": "",
   "main": "index.js",
   "directories": {
@@ -13,10 +16,15 @@
     "type": "git",
     "url": "git+https://github.com/bitfinexcom/bfx-hf-ui-config.git"
   },
-  "author": "bitfinexcom",
-  "license": "ISC",
+  "author": "Bitfinex",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/bitfinexcom/bfx-hf-ui-config/issues"
   },
+  "keywords": [
+    "bitfinex",
+    "bitcoin",
+    "BTC"
+  ],
   "homepage": "https://github.com/bitfinexcom/bfx-hf-ui-config#readme"
 }
