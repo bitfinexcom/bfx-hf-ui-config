@@ -1,0 +1,30 @@
+{
+  "name": "bfx-hf-ui-config",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=6"
+  },
+  "description": "Library which provides a set of configs for bfx-hf-* services.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfinexcom/bfx-hf-ui-config.git"
+  },
+  "author": "Bitfinex",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bitfinexcom/bfx-hf-ui-config/issues"
+  },
+  "keywords": [
+    "bitfinex",
+    "bitcoin",
+    "BTC"
+  ],
+  "homepage": "https://github.com/bitfinexcom/bfx-hf-ui-config#readme"
+}
