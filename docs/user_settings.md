@@ -16,9 +16,9 @@ It's object which contains default values for a specific config
 in UserSettings case structure of `_default` looks like this: 
 ```
 {
-	CHART ⇒ string
-	THEME ⇒ string
-	DMS ⇒ bool
-	AFFILIATE_CODE ⇒ string
+	chart ⇒ string
+	theme ⇒ string
+	dms ⇒ bool
+	affiliate_code ⇒ string
 }
 ```

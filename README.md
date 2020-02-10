@@ -3,6 +3,7 @@
 This library gives a set of configs, which can be used in all `bfx-hf-*` services. Any config in `bfx-hf-ui-config` contain predefined default values
 
 ## Installation
+
 ```bash
 
 npm i --save bfx-hf-ui-config
@@ -13,6 +14,7 @@ npm i --save bfx-hf-ui-config
 UserSettings (see `docs/user_settings.md`)  
 
 ## Quickstart & Example
+
 To get started, import an `bfx-hf-ui-config` to your project, then get any config  you need, for istance it will be UserSettings:
 
 ```js
