@@ -1,3 +1,7 @@
+# 1.0.2
+
+- Fix affiliateCode default key
+
 # 1.0.1
 
 - Update _default user settings to be lower case
