@@ -1,2 +1,15 @@
+# 1.0.3
+
+- Update adds ga fields to user_settings default for google analytics
+
+# 1.0.2
+
+- Fix affiliateCode default key
+
+# 1.0.1
+
+- Update _default user settings to be lower case
+
 # 1.0.0
+
 - Initial version
